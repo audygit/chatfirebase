@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "979998601732",
+    "firebase_url": "https://chat-84c18.firebaseio.com",
+    "project_id": "chat-84c18",
+    "storage_bucket": "chat-84c18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979998601732:android:44ac086a63b7455b",
+        "android_client_info": {
+          "package_name": "com.example.meruguabhishek.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979998601732-uaqi63psr9rmk8tgtmlup0lv9rkutnk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meruguabhishek.myapplication",
+            "certificate_hash": "a904c07c250cdf5213901188563fe97af4f79d90"
+          }
+        },
+        {
+          "client_id": "979998601732-qbo8he0sh3tdloajv9esf0n8sofqqeu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhPkMNwSlI8crFLvY7fyfoPFy0a_VvMdc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979998601732-qbo8he0sh3tdloajv9esf0n8sofqqeu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
