@@ -45,6 +45,7 @@
     <!--</ScrollView>-->
 
     <android.support.v7.widget.RecyclerView
+        android:paddingBottom="70dp"
         android:id="@+id/recycler_view"
         android:layout_below="@id/toolbar"
         android:scrollbars="vertical"

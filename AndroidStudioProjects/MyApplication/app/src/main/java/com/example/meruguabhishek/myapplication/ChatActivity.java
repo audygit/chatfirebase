@@ -137,8 +137,6 @@ public class ChatActivity extends AppCompatActivity {
         }
         if (requestCode == 3 && resultCode == RESULT_OK && data != null && data.getData() != null) {
             Uri uri = data.getData();
-            Intent intent=new Intent(ChatActivity.this,UploadImageActivity.class);
-            startActivityForResult(intent,3);
             Map<String, String> map = new HashMap<String, String>();
             map.put("message", uri.toString());
             map.put("user", UserDetails.username);

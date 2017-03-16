@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -75,18 +77,19 @@ public class ChatRecyclerAdapter  extends RecyclerView.Adapter<RecyclerView.View
             ChatItem item=items.get(position);
             holder.flagTxt.setText(item.getUser());
             URL url = null;
-            try {
-                url = new URL("http://i.ndtvimg.com/i/2015-12/audi-a4-827_827x510_81450185907.jpg");
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            }
-            Bitmap bmp = null;
-            try {
-                bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            holder.imageView.setImageBitmap(bmp);
+            Glide.with(mContext).load("http://i.ndtvimg.com/i/2015-12/audi-a4-827_827x510_81450185907.jpg").into(holder.imageView);
+//            try {
+//                url = new URL();
+//            } catch (MalformedURLException e) {
+//                e.printStackTrace();
+//            }
+//            Bitmap bmp = null;
+//            try {
+//                bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//            holder.imageView.setImageBitmap(bmp);
         }
 
     }
